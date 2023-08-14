@@ -4,6 +4,7 @@
 void main()
 {
     int num;
+    clrscr();
     printf("\n Enter number=");
     scanf("%d",&num);
     if(num>0)
@@ -14,11 +15,8 @@ void main()
     {
         printf("%d is negative number",num);
     }
-    if(num=0)
-    {
-        printf("%d is zero number",num);
-    }
-        
-    
+    else 
+    num=0;
+    printf("%d is zero number",num);  
     getch();
 }
