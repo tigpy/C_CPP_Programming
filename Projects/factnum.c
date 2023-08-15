@@ -1,16 +1,19 @@
-//program to find factorial of a number using"for loop"
+//program to find factorial of a number
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
     int num,fact=1,i;
     clrscr();
+    i=1;
     printf("\n Enter any integer number=");
     scanf("%d",&num);
-    for (i=1;i<=num;i++)
+    while (i<=num)
     {
-        fact=fact*i;
+          fact=fact*i;
+          i++;
     }
-    printf("\nfactorial of %d=%d",num,fact);
+    printf("\n Factorial of%d=%d",num,fact);
     getch();
+    
 }
